@@ -28,3 +28,12 @@ git常用指令记录
 
 ## git checkout < 分支名 > <文件名> < 文件夹/** >
 从指定分支，导入合并指定的文件名、文件夹内容
+
+## git clone --bare my_project my_project.git
+从my_project 中复制除一个裸仓库my_project.git，用来搭建git服务器仓库
+
+##  scp -r my_project.git user@git.example.com:/srv/git
+将my_project.git 复制到服务器上
+
+## git clone user@git.example.com:/srv/git/my_project.git
+从服务器上克隆一个仓库
