@@ -37,3 +37,6 @@ git常用指令记录
 
 ## git clone user@git.example.com:/srv/git/my_project.git
 从服务器上克隆一个仓库
+
+## git gc
+垃圾清理回收，压缩
