@@ -50,5 +50,9 @@ git常用指令记录
 **注：上述两条指令可用来删除误多加入仓库的文件，如果出现下述提示：**  
 **fatal:pathspec 'filename' did not match any files**  
 **可能原因有：1、文件不存在；2、在gitignore文件指定了该文件；**  
-
+**修改gitignore文件后，快速更正仓库文件步骤：**  
+**1、git rm -r --cached ./  先删除仓库所有文件**  
+**2、更新gitignore文件**  
+**3、git add ./  再添加所有文件**  
+**4、最后执行commit和push指令**  
 
