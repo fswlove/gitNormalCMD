@@ -56,3 +56,9 @@ git常用指令记录
 **3、git add ./  再添加所有文件**  
 **4、最后执行commit和push指令**  
 
+## git archive < 分支名 > < --format=tar.gz > --output=DirAndFilename.格式  
+将项目打包，不含git管理信息，如果不指定format，默认输出tar格式  
+
+## git bundle create master.bundle < dir >
+带log信息的打包，但是不能切换分支；  
+使用git clone master.bundle < dir >来解包分支
