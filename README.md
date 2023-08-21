@@ -41,10 +41,10 @@ git常用指令记录
 ## git gc
 垃圾清理回收，压缩  
 
-## git rm -r --cached <filename> <dirname>
+## git rm -r --cached < filename > < dirname >
 删除仓库中缓存跟踪管理的文件，用来删除仓库里的文件；指令执行后，再调用commit可执行更改  
 
-## git rm -r -n --cached <filename> <dirname>
+## git rm -r -n --cached < filename > < dirname >
 预览将要删除的文件，不实际执行删除操作
 
 **注：上述两条指令可用来删除误多加入仓库的文件，如果出现下述提示：**  
