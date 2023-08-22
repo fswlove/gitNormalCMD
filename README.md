@@ -62,3 +62,42 @@ git常用指令记录
 ## git bundle create master.bundle < dir >
 带log信息的打包，但是不能切换分支；  
 使用git clone master.bundle < dir >来解包分支
+
+## git tag  
+## git tag -l "v1.8.5*"  
+查看标签  
+
+## git show < 标签名 >  
+查看标签信息  
+
+## git tag -a < 标签名 > < -m 'message' >  
+附注标签  
+
+## git tag < 标签名 >  
+轻量标签  
+
+## git tag -a < 标签名 > < 校验和或部分校验和 >  
+后期打标签，根据校验和  
+
+## git push < 服务器名，如origin > < 标签名 >  
+推送单个标签  
+
+## git push < 服务器名，如origin > --tags  
+推送多个标签，将不在远程仓库上的标签全推送过去  
+
+## git tag -d < 标签名 >  
+删除本地标签  
+
+## git push < remote > :refs/tags/< tagname >  
+删除远程仓库标签：将冒号前面的空值推送到远程标签名，从而高效地删除它。  
+
+## git push < remote > --delete < tagname >  
+删除远程仓库标签；  
+
+## git checkout < tagname >  
+检出标签，会使你的仓库处于“分离头指针（detached HEAD）”的状态——这个状态有些不好的副作用：  
+在“分离头指针”状态下，如果你做了某些更改然后提交它们，标签不会发生变化， 但你的新提交将不属于任  
+何分支，并且将无法访问；  
+
+## git checkout -b < 新分支名 > < tagname >  
+检出标签并创建新分支  
