@@ -1,6 +1,9 @@
 # gitNormalCMD
 git常用指令记录
 
+## ssh-keygen -t rsa –C “youremail@example.com”  
+Window电脑生成公钥指令  
+
 ## git branch -vv  
 查看所有分支信息、远程分支、最近提交一次提交信息；
 
