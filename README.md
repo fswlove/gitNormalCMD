@@ -29,6 +29,9 @@ Window电脑生成公钥指令
 ## git remote show < 远程仓库 >
 查看远程仓库信息
 
+## git fetch  --->git status
+查看本地分支与远程分支是否有差异，在fetch后用status才可以，单独status查看不到差异
+
 ## git checkout < 分支名 > <文件名> < 文件夹/** >
 从指定分支，导入合并指定的文件名、文件夹内容
 
