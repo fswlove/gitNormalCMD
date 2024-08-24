@@ -20,7 +20,7 @@ Window电脑生成公钥指令
 
 ## cat **.pub >> .ssh/authorized_keys  
 
-将pub附加到keys后面，注意不要用window的shell或者cmd执行，不会附加，用putty执行可以；  
+将pub附加到keys后面，注意不是单个">"(不会附加)；  
 
 ## git branch -vv  
 查看所有分支信息、远程分支、最近提交一次提交信息；
