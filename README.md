@@ -25,6 +25,22 @@ Window电脑生成公钥指令
 ## git branch -vv  
 查看所有分支信息、远程分支、最近提交一次提交信息；
 
+## git branch -r  
+
+列出所有远程跟踪分支；
+
+## git branch -a  
+
+列出所有本地和远程跟踪分支；  
+
+## git ls-remote --heads  
+
+获取远程仓库分支信息（当前clone仓库）；  
+
+## git ls-remote --tags <远程仓库 可选>  
+
+获取远程仓库标签信息；  
+
 ## git commit -m 'xxx'
 提交已经add并追踪的修改，-m表示直接添加后面的提交注释；
 如果没有-m，会弹出文本编辑，编辑好提交记录后，关闭编辑器，开始提交；
