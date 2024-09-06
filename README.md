@@ -48,6 +48,10 @@ Window电脑生成公钥指令
 ## git commit -a
 不用单独add，直接提交所有改变的内容；
 
+## git commit --amend  
+
+修补上次提交，并覆盖原来的提交信息；  
+
 ## git branch < 分支名 >  
 创建分支
 
